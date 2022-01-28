@@ -3,8 +3,10 @@
 }
 body {
   margin: 60px auto;
-  max-width: 100%;
-  background: rgb(250, 242, 229);
+  max-width: 800px;
+  background: white;
+  border: solid 1px black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 h1,
@@ -29,6 +31,9 @@ h4 {
   margin-bottom: 40px;
 }
 
+p {
+  font-size: 20px;
+}
 .easy-nav-buttons {
   display: flex;
   justify-content: center;
@@ -59,15 +64,7 @@ h4 {
   margin-top: -20px;
 }
 
-.about-paras {
-  font-size: 20px;
-}
-
-.about-card {
-  background: rgb(225, 228, 181);
-}
-
-.about-paras {
-  padding: 15px;
-  margin: 30px 10px;
+.para {
+  font-size: 18px;
+  padding: 30px;
 }
