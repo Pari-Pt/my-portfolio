@@ -1,11 +1,10 @@
+:root {
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
 body {
   margin: 60px auto;
   max-width: 100%;
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(255, 200, 124, 1) 2%,
-    rgb(247, 247, 147) 90%
-  );
+  background: rgb(250, 242, 229);
 }
 
 h1,
@@ -16,7 +15,6 @@ h4 {
 
 h1 {
   font-size: 95px;
-  margin-left: 30px;
 }
 
 h2 {
@@ -28,4 +26,48 @@ h4 {
   font-size: 30px;
   opacity: 0.7;
   margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.easy-nav-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.easy-nav-buttons a {
+  margin: 20px;
+  padding: 20px 15px;
+  background: #147aaa;
+  color: white;
+  box-shadow: var(--box-shadow);
+}
+
+.easy-nav-buttons a:hover {
+  background: transparent;
+  color: black;
+  transition: all;
+}
+
+#contact-section {
+  text-align: center;
+}
+
+.about-greeting {
+  text-align: center;
+  font-size: 25px;
+  opacity: 0.8;
+  margin-top: -20px;
+}
+
+.about-paras {
+  font-size: 20px;
+}
+
+.about-card {
+  background: rgb(225, 228, 181);
+}
+
+.about-paras {
+  padding: 15px;
+  margin: 30px 10px;
 }
