@@ -16,7 +16,7 @@ h4 {
 }
 
 h1 {
-  font-size: 95px;
+  font-size: 90px;
 }
 
 h2 {
@@ -68,8 +68,9 @@ p {
 
 .para {
   font-size: 18px;
-  padding: 10px 30px;
   margin: 15px 90px;
+  
+
 }
 
 .weather-app-img{
