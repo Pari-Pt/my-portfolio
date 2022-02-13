@@ -1,12 +1,19 @@
 :root {
+  --primary-color:#f9f7fe;
   --secondary-color: #147aaa;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
-  margin: 60px 10px;
+  margin: 60px 0;
   max-width: 100%;
   background: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color:black;
+  
 }
 
 h1,
@@ -21,21 +28,43 @@ h1 {
 
 h2 {
   font-size: 48px;
-  margin-top: 100px;
+  
 }
 
 
 h4 {
   font-size: 30px;
-  opacity: 0.7;
-  margin-top: 10px;
-  margin-bottom: 40px;
+ 
+  
 }
 
 p {
   font-size: 20px;
  
 }
+
+.hero {
+  display:block;
+  background:(--primary-color);
+  text-align: center;
+  padding: 100px 10px;
+  margin-top:-10px;
+}
+
+.hero-h2{
+  margin-bottom: 10px;
+}
+.hero-h1{
+  font-family: "Rock Salt", cursive;
+  font-size:80px;
+}
+
+.hero-h4{
+  opacity:0.7;
+  color:rgb(109, 104, 104);
+}
+
+
 .easy-nav-buttons {
   display: flex;
   justify-content: center;
@@ -114,6 +143,7 @@ p {
     margin-right:10px;
   }
 
+ 
   h1{
     font-size: 70px;
     text-align: center;
