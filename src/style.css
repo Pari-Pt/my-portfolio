@@ -1,14 +1,16 @@
 :root {
-  --primary-color:#f9f7fe;
+  --primary-color:#F9F7FE;
   --secondary-color: #147aaa;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
-  margin: 60px 0;
+  margin: 55px 0px;
   max-width: 100%;
   background: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--primary-font-family);
   color: black;
+  
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -43,25 +45,31 @@ p {
  
 }
 
+.nav-link:hover{
+  text-decoration: underline;
+}
 .hero {
   display:block;
-  background:(--primary-color);
+  background:var(--primary-color);
   text-align: center;
   padding: 100px 10px;
-  margin-top:-10px;
+  
 }
 
-.hero-h2{
-  margin-bottom: 10px;
+.hero h2{
+  line-height: 55px;
+  margin-bottom: 20px;
 }
-.hero-h1{
+.hero h1{
   font-family: "Rock Salt", cursive;
   font-size:80px;
 }
 
-.hero-h4{
+.hero h4{
   opacity:0.7;
   color:rgb(109, 104, 104);
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 
@@ -134,7 +142,11 @@ p {
   
   
 }
-
+@media(max-width:992px){
+  .test{
+    text-align: center;
+  }
+}
 
 @media(max-width:600px){
   body{
@@ -143,6 +155,7 @@ p {
     margin-right:10px;
   }
 
+  
  
   h1{
     font-size: 70px;
