@@ -3,9 +3,10 @@
   --secondary-color: #147aaa;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --special-font-family: "Rock Salt", cursive;
 }
 body {
-  margin: 55px 0px;
+  margin: 55px 0 0;
   max-width: 100%;
   background: white;
   font-family: var(--primary-font-family);
@@ -29,7 +30,7 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 45px;
   
 }
 
@@ -45,6 +46,14 @@ p {
  
 }
 
+
+.navbar-brand{
+  font-family:var(--special-font-family);
+}
+
+.nav-link{
+  font-size:18px;
+}
 .nav-link:hover{
   text-decoration: underline;
 }
@@ -53,15 +62,16 @@ p {
   background:var(--primary-color);
   text-align: center;
   padding: 100px 10px;
-  
+  box-shadow: var(--box-shadow);
 }
 
 .hero h2{
   line-height: 55px;
   margin-bottom: 20px;
 }
+
 .hero h1{
-  font-family: "Rock Salt", cursive;
+  font-family: var(--special-font-family);
   font-size:80px;
 }
 
@@ -86,10 +96,58 @@ p {
   box-shadow: var(--box-shadow);
 }
 
+
+
 .easy-nav-buttons a:hover {
   background: transparent;
   color: black;
   transition: all;
+}
+
+.app-buttons a:hover{
+  background: transparent;
+  color: black;
+  transition: all;
+}
+
+.full-footer{
+  background: var(--primary-color);
+  margin: auto;
+  max-width: 100%;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  border-top: 2px solid black;
+  
+  
+}
+  
+.footer-grid {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.netlify-line{
+  text-align: center;
+  
+  }
+.fa-brands{
+  font-size:35px;
+}
+
+.footer-icon-title{
+  font-size:12px;
+  padding: 0px 5px;
+  
+}
+
+.fa-linkedin{
+  color: #0B66C2;
+}
+
+.fa-github{
+  color:#542773;
 }
 
 #contact-section {
@@ -102,14 +160,9 @@ p {
   opacity: 0.8;
   margin-top: -20px;
 }
-
 .para {
   font-size: 18px;
-  
-  
-  
-
-}
+  }
 
 .app-buttons{
   text-align: center;
@@ -127,7 +180,7 @@ p {
   display: block;
   margin: 0 auto;
   margin-top: 80px;
-
+  margin-bottom: 40px;
 }
 
 .weather-app-img{
@@ -140,8 +193,8 @@ p {
   display: block;
   margin: 0 auto;
   
-  
 }
+
 @media(max-width:992px){
   .test{
     text-align: center;
