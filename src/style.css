@@ -171,12 +171,21 @@ text-align: center;
   text-align: center;
 }
 
-.about-greeting {
+.description-repeat {
   text-align: center;
-  font-size: 25px;
-  opacity: 0.8;
+  font-size: 18px;
+  opacity: 0.6;
   margin-top: -20px;
 }
+
+.skillset-grid{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+ 
+}
+
 .para {
   font-size: 18px;
   }
