@@ -46,7 +46,16 @@ p {
  
 }
 
+.h2-repeat{
+margin-top: 80px;
+margin-bottom: -15px;
+text-align: center;
+}
 
+.h1-repeat{
+  text-align: center;
+  
+}
 .navbar-brand{
   font-family:var(--special-font-family);
 }
@@ -80,6 +89,14 @@ p {
   color:rgb(109, 104, 104);
   margin-top: 20px;
   margin-bottom: 40px;
+}
+
+.about-me-grid{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+
 }
 
 
