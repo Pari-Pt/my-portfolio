@@ -65,6 +65,10 @@ text-align: center;
 .nav-link{
   font-size:18px;
 }
+
+.active{
+  text-decoration: underline;
+}
 .nav-link:hover{
   text-decoration: underline;
 }
@@ -283,7 +287,7 @@ text-align: center;
   .hero{
     padding-top:50px;
   }
-
+}
 @media(max-width:390px){
 
   .hero{
@@ -301,7 +305,7 @@ text-align: center;
   .hero h4{
     font-size: 17px;
   }
-  
+
   .weather-app-img{
     display:none;
   }
