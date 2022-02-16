@@ -231,7 +231,20 @@ text-align: center;
   .nav-center{
     text-align: center;
   }
-}
+  
+  .hero{
+    padding-top:65px;
+  }
+  .hero h1{
+    font-size: 70px;
+      }
+
+  .hero h4{
+    font-size: 25px;}
+  }
+
+
+
 
 @media(max-width:600px){
   body{
@@ -241,13 +254,13 @@ text-align: center;
   }
 
   h2{
-    font-size:35px;
+    font-size:40px;
   }
  
   h1{
     font-size: 70px;
     text-align: center;
-    line-height:72px;
+    
   }
 
   .hero{
@@ -255,7 +268,7 @@ text-align: center;
   }
  
   .hero h4{
-    font-size: 25px;
+    font-size: 20px;
   }
   .para{
     margin-left: 10px;
@@ -266,10 +279,29 @@ text-align: center;
 
 }
 
+@media(max-width:510px){
+  .hero{
+    padding-top:50px;
+  }
+
 @media(max-width:390px){
+
+  .hero{
+    padding-top: 40px;
+  }
+
+  .hero h2{
+    font-size: 35px;
+  }
+
   .hero h1{
     font-size:65px;
   }
+
+  .hero h4{
+    font-size: 17px;
+  }
+  
   .weather-app-img{
     display:none;
   }
