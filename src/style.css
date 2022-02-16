@@ -48,13 +48,15 @@ p {
 
 .h2-repeat{
 margin-top: 80px;
-margin-bottom: -15px;
+margin-bottom:-20px;
 text-align: center;
 }
 
 .h1-repeat{
   text-align: center;
-  
+  line-height:95px;
+  margin-bottom:15px;
+    
 }
 .navbar-brand{
   font-family:var(--special-font-family);
@@ -77,6 +79,7 @@ text-align: center;
 .hero h2{
   line-height: 55px;
   margin-bottom: 20px;
+  
 }
 
 .hero h1{
@@ -183,8 +186,11 @@ text-align: center;
   justify-content: center;
   text-align: center;
   vertical-align: middle;
- 
+  
 }
+
+
+
 
 .para {
   font-size: 18px;
@@ -222,7 +228,7 @@ text-align: center;
 }
 
 @media(max-width:992px){
-  .test{
+  .nav-center{
     text-align: center;
   }
 }
@@ -234,14 +240,23 @@ text-align: center;
     margin-right:10px;
   }
 
-  
+  h2{
+    font-size:35px;
+  }
  
   h1{
     font-size: 70px;
     text-align: center;
+    line-height:72px;
   }
 
+  .hero{
+    padding-top:65px;
+  }
  
+  .hero h4{
+    font-size: 25px;
+  }
   .para{
     margin-left: 10px;
     margin-right: 10px;
@@ -251,8 +266,18 @@ text-align: center;
 
 }
 
-@media(max-width:360px){
+@media(max-width:390px){
+  .hero h1{
+    font-size:65px;
+  }
   .weather-app-img{
     display:none;
+  }
+
+  .h2-repeat{
+    margin-bottom: 10px;
+  }
+  .h1-repeat{
+    line-height:75px;
   }
 }
