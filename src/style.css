@@ -193,13 +193,6 @@ text-align: center;
   
 }
 
-
-
-
-.para {
-  font-size: 18px;
-  }
-
 .app-buttons{
   text-align: center;
 
@@ -229,6 +222,10 @@ text-align: center;
   display: block;
   margin: 0 auto;
   
+}
+
+.about-me-para{
+  font-size: 18px;
 }
 
 @media(max-width:992px){
