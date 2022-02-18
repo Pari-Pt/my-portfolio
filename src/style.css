@@ -172,6 +172,17 @@ text-align: center;
   text-align: center;
 }
 
+.contact-info{
+  font-size: 18px;
+  }
+
+.contact-description{
+  margin-top: -5px;
+  text-align: center;
+  font-size: 18px;
+  opacity: 0.6;
+  
+}
 .description-repeat {
   text-align: center;
   font-size: 18px;
