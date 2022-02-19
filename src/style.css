@@ -159,6 +159,13 @@ text-align: center;
   
 }
 
+.chrome-icon{
+  width:205px;
+  height: 205px;
+}
+
+
+
 .special-font-title{
   font-family: var(--special-font-family);
 }
