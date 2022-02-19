@@ -159,6 +159,9 @@ text-align: center;
   
 }
 
+.special-font-title{
+  font-family: var(--special-font-family);
+}
 .netlify-line{
   text-align: center;
   
