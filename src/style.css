@@ -46,6 +46,9 @@ p {
  
 }
 
+ul {
+  list-style-type: none;
+}
 .h2-repeat{
 margin-top: 80px;
 margin-bottom:-20px;
@@ -106,6 +109,11 @@ text-align: center;
 
 }
 
+.contact-type-title{
+  font-family: var(--special-font-family);
+}
+
+
 
 .easy-nav-buttons {
   display: flex;
@@ -159,6 +167,9 @@ text-align: center;
   font-size:35px;
 }
 
+.fa-at{
+  color:rgb(173, 28, 28);
+}
 
 .fa-linkedin{
   color: #0B66C2;
@@ -168,21 +179,19 @@ text-align: center;
   color:#542773;
 }
 
-#contact-section {
-  text-align: center;
-}
-
-.contact-info{
-  font-size: 18px;
-  }
-
-.contact-description{
-  margin-top: -5px;
-  text-align: center;
-  font-size: 18px;
-  opacity: 0.6;
+.fa-instagram-square{
+  color:  #d6249f
   
 }
+.contact-type-title{
+  font-size: 25px;
+  }
+
+.contact-type a{
+  font-size: 20px;
+  text-decoration: none;
+}
+
 .description-repeat {
   text-align: center;
   font-size: 18px;
@@ -242,6 +251,8 @@ text-align: center;
 .about-me-para{
   font-size: 18px;
 }
+
+
 
 @media(max-width:992px){
   .nav-center{
