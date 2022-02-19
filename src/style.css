@@ -192,6 +192,12 @@ text-align: center;
   text-decoration: none;
 }
 
+.h1-repeat{
+  font-family: var(--special-font-family);
+  font-size: 70px;
+  margin-top: 10px;
+  margin-bottom:30px;
+}
 .description-repeat {
   text-align: center;
   font-size: 18px;
@@ -205,16 +211,6 @@ text-align: center;
   text-align: center;
   vertical-align: middle;
   
-}
-
-.cv-button{
-  margin: 10px;
-  background: var(--secondary-color);
-  color: white;
-}
-
-.cv{
-  text-align: center;
 }
 
 .app-buttons{
