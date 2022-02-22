@@ -41,9 +41,6 @@ p {
   font-size: 20px;
 }
 
-ul {
-  list-style-type: none;
-}
 
 .h2-repeat{
 margin-top: 80px;
@@ -240,9 +237,9 @@ transform: scale(1.1);
 }
 
 .skill-icon:hover{
-  opacity:0.3;
   transform: scale(1.1);
 }
+
 
 .chrome-icon{
   width:105px;
