@@ -115,12 +115,12 @@ text-align: center;
 
 
 
-.easy-nav-buttons {
+.easy-nav-buttons{
   display: flex;
   justify-content: center;
 }
 
-.easy-nav-buttons a {
+.easy-nav-buttons a, .featured-work-button{
   margin: 15px;
   padding: 20px 15px;
   background: var(--secondary-color);
@@ -159,10 +159,6 @@ text-align: center;
   
 }
 
-.chrome-icon{
-  width:205px;
-  height: 205px;
-}
 
 
 
@@ -223,6 +219,13 @@ text-align: center;
   
 }
 
+.skill-icon{
+  width: 150px;
+}
+.featured-work-button-container{
+  margin-top:110px;
+}
+
 .app-buttons{
   text-align: center;
 
@@ -238,7 +241,7 @@ text-align: center;
 .app-showcase-grid{
   display: block;
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
