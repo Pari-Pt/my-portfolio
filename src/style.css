@@ -73,7 +73,10 @@ text-align: center;
   text-decoration: underline;
 }
 
-.nav-link:hover{
+.resource-link{
+  text-decoration: none;
+}
+.nav-link:hover, .resource-link:hover{
   text-decoration: underline;
 }
 

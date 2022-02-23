@@ -69,74 +69,89 @@
     <h2 class="h2-repeat">About This</h2>
     <h1 class="h1-repeat">Weather App</h1>
     <div class="description-repeat">Front-End Developer in the Algarve, Portugal</div>
+    
     <div class="container app-showcase-grid">
+
       <div class="row">
-        <div class="col-sm-6 mb-5"><span>Images here</span></div>
+        <div class="col-sm-6 mb-5">
+          <img src="/images/weather/day-weather.png" class="img-fluid day-weather mt-1 mb-4 rounded shadow" alt="Weather App Day Mode"/>
+          <p>Insert toggle button for Day and Night mode with JS!</p>
+
+        </div>
         <div class="col-sm-6 mb-5">
           <h5>Purpose</h5>
-          <p>This web app that allows users to obtain live weather data (via API calls) for a desired location or for the user's position via geolocation. It also features a 5-day forecast, and changes color depending on whether it is daytime or nighttime in the location of interest.</p>
+          <p>This web app allows users to obtain live weather data (via API calls) for a desired location or for the user's position via geolocation. It also features a 5-day forecast, and changes color depending on whether it is daytime or nighttime in the location of interest.</p>
           <p>As a fun addition, I coded a couple of festive themes for: 
             <ul>
-              <li>Christmas and New Year (January and February)</li>
+              <li>Christmas and New Year (December and January)</li>
               <li>Easter (April)</li>
               <li>Halloween (October)</li>
             </ul>
           </p>
-          <div class="app-buttons"><a href="https://gifted-roentgen-adff12.netlify.app/" target="_blank" class="btn border border-secondary app-button" title="Launch Seonah's Weather App">Launch</a><a href="https://github.com/Seo-Pt/" target="_blank" class="btn border border-secondary app-button" title="See Seonah's GitHub Code">Code</a></div>
+          <div class="app-buttons mt-2 mb-5"><a href="https://gifted-roentgen-adff12.netlify.app/" target="_blank" class="btn border border-secondary app-button" title="Launch Seonah's Weather App">Launch</a><a href="https://github.com/Seo-Pt/" target="_blank" class="btn border border-secondary app-button" title="See Seonah's GitHub Code">Code</a></div>   
+           <img src="images/weather/christmas-theme.png" class="img-fluid theme christmas-theme mt-3 rounded shadow" alt="Weather App Christmas Theme"/>
         </div>
         </div>
-      <div class="row">
-        <div class="col-md-6 mb-5">
-          <h5>Construction</h5>
-          <p>I wrote this code using HTML, CSS and JavaScript in order to create an aesthetically pleasing, functional weather application. I began using a wireframe design, which I built using Invision, then translated that into basic HTML, along with some CSS. I then moved on to JavaScript where I created:
-           <ul>
-            <li>A location search engine with submit button</li>
-            <li>Integrated Axios and APIs via OpenWeatherMap to obtain live weather data</li>
-            <li>Integrated Axios and APIs to obtain a 5-day forecast</li>
-            <li>Implemented geolocation in the "Current Location" button, if permitted by the user</li>
-            <li>Use of of APIs to establish the desired weather condition codes, and display the correspoding weather icons</li>
-            <li>Creation of unit conversion buttons for °C and °F</li>
-           </ul>
-          </p>
-       </div>
-      </div>
-             
-      <div class="row">
-        <div class="col-sm-6 mb-5">
-          <h5>Challenges and Solutions</h5>
-          <p>This project was a fulfilling challenge which allowed me to not only present the skills I had learned but also push myself further in tackling problems I hadn't encountered at that point in my education.</p>
-          <div class="example-title mt-4 mb-1">Example 1:</div>
-          <p>A simple example would be that long city names, e.g. Copenhagen would be displayed in the <code>h1</code>, and badly overlap with other elements of the app.</p>
-          <p>I tackled this by using JavaScript and CSS, so that if the city name consisted of 8 or more characters, then the <code>font-size</code> would reduce by <code>20px</code>. This allowed for a more pleasant User Experience, and resolved the bug.</p></div>
-        <div class="col-sm-6 mb-5">
-          <div class="example-title mt-2 mb-1">Example 2:</div>
-          <p>Another example involved the idea of re-using the same button to enable and disable the festive themes I designed. I understood that it would be different to having 2 separate °C and °F buttons, as they both had their own <code>EventListener</code> in JavaScript.</p>
-          <p>Despite this being something I hadn't learned yet, I was determined to find a way to achieve it using my problem-solving and reasoning skills. I reached my solution via a combination of JavaScript expressions:
+              
+           
+        
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <h5>Construction</h5>
+            <p>I wrote this code using HTML, CSS and JavaScript in order to create an aesthetically pleasing, functional weather application. I began by creating a wireframe design on <a href="https://www.invisionapp.com/" target="_blank" class="resource-link" title="Invision">Invision</a>, I then translated that into basic HTML, along with some CSS.</p>
+          </div>
+          <div class="col-md-6 mb-5">
+            <p>I then moved on to JavaScript where I created:</p>
             <ul>
-              <li>Having a parent function <code>displayThemeButton</code>, with multiple child functions for each theme, such as <code>displayHalloween()</code> and <code>removeHalloween()</code></li>
-              <li>Staggering 1 <code>EventListener</code> for <code>displayHalloween()</code> and 1 for <code>removeHalloween()</code></li>
-              <li>Use of <code>if else</code> statements to ensure that the Halloween 🎃 button would appear if the current month is October</li>
-              <li>Targetting the button element by <code>class</code> using <code>document.querySelector</code></li>
-              <li>Assigning a new <code>id</code> to the element using <code>setAttribute</code></li>
-              <li>Implementation of <code>EventListener</code> code which awaited a click to display, and a further click to remove the theme</li>
-              <li>Use of <code>classList.add</code> and <code>classList.remove</code> to change background theme from day/night mode to the relevant theme</li>
+              <li>A location search engine with submit button</li>
+              <li>Integrated Axios and APIs via <a href="https://openweathermap.org/" target="_blank" class="resource-link" title="OpenWeatherMap Website">OpenWeatherMap</a> to obtain live weather data</li>
+              <li>Integrated Axios and APIs to obtain a 5-day forecast</li>
+              <li>Implemented geolocation in the "Current Location" button, if permitted by the user</li>
+              <li>Use of of APIs to establish the desired weather condition codes, and display the correspoding weather icons</li>
+              <li>Creation of unit conversion buttons for °C and °F</li>
             </ul>
+          </div>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 mb-5">
+            <h5>Challenges and Solutions</h5>
+            <p>This project was a fulfilling challenge which allowed me to not only present the skills I had learned but also push myself further in tackling problems I hadn't encountered at that point in my education.</p>
+            <div class="example-title mt-4 mb-1">Example 1:</div>
+            <p>A simple example would be that long city names, e.g. Copenhagen would be displayed in the <code>h1</code>, and badly overlap with other elements of the app.</p>
+            <p>I tackled this by using JavaScript and CSS, so that if the city name consisted of 8 or more characters, then the <code>font-size</code> would reduce by <code>20px</code>. This allowed for a more pleasant User Experience, and resolved the bug.</p>
+          </div>
+          <div class="col-sm-6 mb-5">
+            <div class="example-title mt-2 mb-1">Example 2:</div>
+            <p>Another example involved the idea of re-using the same button to enable and disable the festive themes I designed. I understood that it would be different to having 2 separate °C and °F buttons, as they both had their own <code>EventListener</code> in JavaScript.</p>
+            <p>Despite this being something I hadn't learned yet, I was determined to find a way to achieve it using my problem-solving and reasoning skills. I reached my solution via a combination of JavaScript expressions:
+              <ul>
+                <li>Creating a parent function <code>displayThemeButton</code>, with multiple child functions for each theme, such as <code>displayChristmas()</code> and <code>removeChristmas()</code></li>
+                <li>Staggering 1 <code>EventListener</code> for <code>displayChristmas()</code> and 1 for <code>removeChristmas()</code></li>
+                <li>Use of <code>if else</code> statements to ensure that the Christmas 🎅 button would appear if the current month is December or January <img src="images/weather/christmas-button.png" class="img-fluid theme christmas-theme shadow rounded mt-1 mb-1" alt="Weather App Christmas Button"/>
+                </li>
+                <li>Targetting the button element by <code>class</code> using <code>document.querySelector</code></li>
+                <li>Assigning a new <code>id</code> to the element using <code>setAttribute</code></li>
+                <li>Implementation of <code>EventListener</code> code which awaited a click to display, and a further click to remove the theme</li>
+                <li>Use of <code>classList.add</code> and <code>classList.remove</code> to change background theme from day/night mode to the relevant theme</li>
+              </ul>
+
             </p>
+          </div>
         </div>
       </div>
-      </div>    
-    
-    
-      <footer class="container full-footer">
-        <div class="d-flex footer-grid mb-1">
-          <div class="row">
-            <div class="col footer-icon"><a href="mailto:seonah.webdev@gmail.com" target="_blank" class="btn icon-button" title="Email Seonah"><i class="fa-brands fa-solid fa-at"></i></a></div>
-            <div class="col footer-icon"><a href="https://github.com/Seo-Pt/" target="_blank" class="btn icon-button" title="See Seonah's GitHub"><i class="fa-brands fa-github"></i></a></div>
-            <div class="col footer-icon"><a href="https://www.linkedin.com/in/seonah-pari-pt/" target="_blank" class="btn icon-button" title="Visit Seonah's LinkedIn"><i class="fa-brands fa-linkedin"></i></a></div>
-            <div class="col footer-icon"><a href="https://www.instagram.com/seo.webdev/" target="_blank" class="btn icon-button" title="Visit Seonah's Instagram"><i class="fa-brands fa-instagram-square"></i></a></div>
-          </div>
-          </div>
-      <div class="netlify-line">
+        
+        
+        <footer class="container full-footer">
+          <div class="d-flex footer-grid mb-1">
+            <div class="row">
+              <div class="col footer-icon"><a href="mailto:seonah.webdev@gmail.com" target="_blank" class="btn icon-button" title="Email Seonah"><i class="fa-brands fa-solid fa-at"></i></a></div>
+              <div class="col footer-icon"><a href="https://github.com/Seo-Pt/" target="_blank" class="btn icon-button" title="See Seonah's GitHub"><i class="fa-brands fa-github"></i></a></div>
+              <div class="col footer-icon"><a href="https://www.linkedin.com/in/seonah-pari-pt/" target="_blank" class="btn icon-button" title="Visit Seonah's LinkedIn"><i class="fa-brands fa-linkedin"></i></a></div>
+        <div class="col footer-icon"><a href="https://www.instagram.com/seo.webdev/" target="_blank" class="btn icon-button" title="Visit Seonah's Instagram"><i class="fa-brands fa-instagram-square"></i></a></div>
+      </div>
+    </div>
+    <div class="netlify-line">
         <a href="https://github.com/Seo-Pt/my-portfolio" target="_blank" class="text-decoration-none" title="See Seonah's code for this website">Open-source code</a> by Seonah Nathali, hosted by <a href="https://www.netlify.com/" target="_blank" class="text-decoration-none" title="Netlify.com">Netlify</a>
       </div>
     </footer>
