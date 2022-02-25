@@ -153,6 +153,29 @@ text-align: center;
   transition: all;
 }
 
+.weather-mode-buttons{
+  text-align: center;
+}
+
+.weather-mode-button{
+margin: 5px 10px;
+}
+
+
+.day-mode{
+  background:lightblue;
+  color:black;
+}
+
+.night-mode{
+  background: darkblue;
+  color:white;
+}
+
+.disabled{
+  background:grey;
+  pointer-events: none;
+}
 .full-footer{
   background: var(--primary-color);
   margin: auto;

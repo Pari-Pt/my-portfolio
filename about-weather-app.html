@@ -74,8 +74,12 @@
 
       <div class="row">
         <div class="col-sm-6 mb-5">
-          <img src="/images/weather/day-weather.png" class="img-fluid day-weather mt-1 mb-4 rounded shadow" alt="Weather App Day Mode"/>
-          <p>Insert toggle button for Day and Night mode with JS!</p>
+          <div id="weather-app-img"><img src="/images/weather/day-weather.png" class="img-fluid day-weather mt-1 mb-4 rounded shadow" alt="Weather App Day Mode"/>
+          </div>  
+          <div class="weather-mode-buttons mt-4">
+          <button class="btn border border-secondary disabled day-mode weather-mode-button" id="day-mode-button">Day Mode</button>
+          <button class="btn border border-secondary enabled night-mode weather-mode-button" id="night-mode-button">Night Mode</button>
+        </div>
 
         </div>
         <div class="col-sm-6 mb-5">
