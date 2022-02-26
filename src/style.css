@@ -14,10 +14,6 @@ body {
   
 }
 
-h1, h2, h3, h4, h5, h6{
-  color:black;
-  
-}
 
 h1,
 h2,
@@ -58,36 +54,17 @@ p {
   font-size:18px;
 }
 
-.active{
-  text-decoration: underline;
-}
-
-.h2-repeat{
-margin-top: 80px;
-margin-bottom:-20px;
-text-align: center;
-}
-
-.resource-link{
-  text-decoration: none;
-}
 .nav-link:hover, .resource-link:hover{
   text-decoration: underline;
 }
 
-.h1-repeat{
-  font-family: var(--special-font-family);
-  font-size: 70px;
-  margin-top: 10px;
-  margin-bottom:30px;
-}
-.description-repeat {
-  text-align: center;
-  font-size: 18px;
-  opacity: 0.6;
-  margin-top: -20px;
+.active{
+  text-decoration: underline;
 }
 
+.special-font-title{
+  font-family: var(--special-font-family);
+}
 .hero {
   display:block;
   background:var(--primary-color);
@@ -113,9 +90,32 @@ text-align: center;
   margin-bottom: 40px;
 }
 
-.special-font-title{
-  font-family: var(--special-font-family);
+.h2-repeat{
+margin-top: 80px;
+margin-bottom:-20px;
+text-align: center;
 }
+
+
+.h1-repeat{
+  font-family: var(--special-font-family);
+  font-size: 70px;
+  margin-top: 10px;
+  margin-bottom:30px;
+}
+
+.description-repeat {
+  text-align: center;
+  font-size: 18px;
+  opacity: 0.6;
+  margin-top: -20px;
+}
+
+.resource-link{
+  text-decoration: none;
+}
+
+
 .featured-work-button-container{
   margin-top:110px;
 }
@@ -171,7 +171,7 @@ text-align: center;
 }
 
 .weather-mode-button{
-margin: 5px 10px;
+  margin: 5px 10px;
 }
 
 
@@ -232,11 +232,11 @@ transform: scale(1.1);
 
 .fa-instagram-square{
   color:  #d6249f
-  
-}
+ }
+
 .contact-type-title{
   font-size: 25px;
-  }
+}
 
 .contact-type a{
   font-size: 20px;
@@ -248,14 +248,11 @@ transform: scale(1.1);
 }
 
 
-
-
 .skillset-grid{
   display: flex;
   justify-content: center;
   text-align: center;
   vertical-align: middle;
-  
 }
 
 .skill-icon{
@@ -406,6 +403,7 @@ transform: scale(1.1);
     margin-bottom: 10px;
   }
   .h1-repeat{
+    font-size: 64px;
     line-height:75px;
   }
   
