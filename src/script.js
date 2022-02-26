@@ -5,7 +5,7 @@ let weatherAppImgElHtml = "";
 
 function displayNightMode(){
     weatherAppImgElHtml="";
-    weatherAppImgElHtml=`<img src="/images/weather/night-weather.png" class="img-fluid night-weather" alt="Weather App Night Mode"/>`;
+    weatherAppImgElHtml=`<img src="/images/weather/night-weather.png" class="img-fluid night-weather mt-1 mb-4 rounded shadow" alt="Weather App Night Mode"/>`;
     weatherAppImgEl.innerHTML= weatherAppImgElHtml;
     
     
