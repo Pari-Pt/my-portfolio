@@ -1,7 +1,3 @@
-let nightModeButtonEl = document.querySelector("#night-mode-button");
-let dayModeButtonEl = document.querySelector("#day-mode-button");
-let weatherAppImgEl = document.querySelector("#weather-app-img");
-let weatherAppImgElHtml = "";
 
 function displayNightMode(){
     weatherAppImgElHtml="";
@@ -16,7 +12,6 @@ function displayNightMode(){
     dayModeButtonEl.classList.add("enabled");
 }
 
-nightModeButtonEl.addEventListener("click", displayNightMode);
 
 
 
@@ -32,4 +27,9 @@ function displayDayMode(){
     nightModeButtonEl.classList.add("enabled");
 }
 
+let weatherAppImgEl = document.querySelector("#weather-app-img");
+let nightModeButtonEl = document.querySelector("#night-mode-button");
+nightModeButtonEl.addEventListener("click", displayNightMode);
+
+let dayModeButtonEl = document.querySelector("#day-mode-button");
 dayModeButtonEl.addEventListener("click", displayDayMode);
