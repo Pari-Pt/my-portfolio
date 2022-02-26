@@ -147,6 +147,11 @@ text-align: center;
 
 }
 
+.portfolio-video{
+  display:block;
+  margin: 0 auto;
+}
+
 .app-buttons a:hover{
   background: transparent;
   color: black;
