@@ -41,6 +41,11 @@ p {
   font-size: 20px;
 }
 
+figcaption{
+  text-align: center;
+  margin-top:5px;
+}
+
 
 .navbar-brand{
   font-family:var(--special-font-family);
@@ -180,10 +185,24 @@ text-align: center;
   color:black;
 }
 
+.day-mode:hover{
+  transform: scale(1.1);
+  color:black;
+}
 .night-mode{
   background: darkblue;
   color:white;
 }
+
+.night-mode:hover{
+  transform: scale(1.1);
+  color:white;
+ }
+
+ .main-weather-caption{
+   margin-top:-20px;
+ }
+
 
 .disabled{
   background:grey;
@@ -302,6 +321,7 @@ transform: scale(1.1);
 .example-title{
   color: var(--secondary-color);
   font-weight:500;
+  text-decoration: underline;
 }
 
 .contact-type-title{
@@ -373,6 +393,15 @@ transform: scale(1.1);
   .hero{
     padding-top:50px;
   }
+
+  .hero-h1{
+    font-size: 75px;
+  }
+
+  .h1-repeat{
+    font-size:65px;
+    line-height:75px;
+  }
 }
 
 
@@ -403,7 +432,7 @@ transform: scale(1.1);
     margin-bottom: 10px;
   }
   .h1-repeat{
-    font-size: 64px;
+    font-size: 60px;
     line-height:75px;
   }
   

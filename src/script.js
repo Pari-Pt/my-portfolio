@@ -1,7 +1,7 @@
 
 function displayNightMode(){
     weatherAppImgElHtml="";
-    weatherAppImgElHtml=`<img src="/images/weather/night-weather.png" class="img-fluid night-weather mt-1 mb-4 rounded shadow" alt="Weather App Night Mode"/>`;
+    weatherAppImgElHtml=`<figure><img src="/images/weather/night-weather.png" class="img-fluid night-weather mt-1 mb-4 rounded shadow" alt="Weather App Night Mode"/><figcaption class="main-weather-caption">Full view of weather app</figcaption></figure>`;
     weatherAppImgEl.innerHTML= weatherAppImgElHtml;
     
     
@@ -17,7 +17,9 @@ function displayNightMode(){
 
 function displayDayMode(){
     weatherAppImgElHtml="";
-    weatherAppImgElHtml=`<img src="/images/weather/day-weather.png" class="img-fluid day-weather mt-1 mb-4 rounded shadow" alt="Weather App Day Mode"/>`;
+    weatherAppImgElHtml=`<figure><img src="/images/weather/day-weather.png" class="img-fluid day-weather mt-1 mb-4 rounded shadow" alt="Weather App Day Mode"/>
+    <figcaption class="main-weather-caption">Full view of weather app</figcaption>
+    </figure>`;
     weatherAppImgEl.innerHTML= weatherAppImgElHtml;
     
     dayModeButtonEl.classList.remove("enabled");
@@ -33,3 +35,4 @@ nightModeButtonEl.addEventListener("click", displayNightMode);
 
 let dayModeButtonEl = document.querySelector("#day-mode-button");
 dayModeButtonEl.addEventListener("click", displayDayMode);
+
