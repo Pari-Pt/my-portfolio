@@ -402,6 +402,10 @@ transform: scale(1.1);
     font-size:65px;
     line-height:75px;
   }
+
+  .long-h1{
+    font-size:60px;
+  }
 }
 
 
@@ -434,6 +438,10 @@ transform: scale(1.1);
   .h1-repeat{
     font-size: 60px;
     line-height:75px;
+  }
+
+  .long-h1{
+    font-size:55px;
   }
   
   .featured-work-button{
