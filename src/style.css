@@ -72,7 +72,7 @@ figcaption{
 }
 .hero {
   display:block;
-  background:var(--primary-color);
+  background: white;
   text-align: center;
   padding: 100px 10px;
   box-shadow: var(--box-shadow);
