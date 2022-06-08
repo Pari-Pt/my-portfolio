@@ -309,14 +309,23 @@ transform: scale(1.1);
 }
 
 .app-showcase-grid,
-.weather-app-img, 
+.app-img,
 .christmas-theme,
-.portfolio-img,
 .portfolio-video{
   display:block;
   margin: auto;
 }
 
+.react-weather-img {
+  width: 400px;
+}
+
+.weather-img,
+.react-dictionary-img,
+.portfolio-img {
+  width: 400px;
+  border: 2px solid black;
+}
 
 .example-title{
   color: var(--secondary-color);
