@@ -223,6 +223,19 @@ text-align: center;
   justify-content: center;
 }
 
+.contact-footer {
+  background: var(--primary-color);
+  position: fixed;
+  max-width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  bottom: 0;
+  border-top: 2px solid black;
+
+
+
+}
+
 .netlify-line{
   text-align: center;
 }
